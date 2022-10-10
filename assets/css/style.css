@@ -1,4 +1,15 @@
+/* General */
 body {
     background: #4a4a4a;
     color: white;
+    text-align: center;
 }
+
+/* Game Section */
+#gamespace {
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    background: green;
+}
+
