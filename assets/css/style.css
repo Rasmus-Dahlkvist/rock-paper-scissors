@@ -63,3 +63,7 @@ footer a {
     margin: 20px;
     color: orangered;
 }
+
+footer a:hover {
+    color: orange;
+}
