@@ -27,6 +27,14 @@ header {
     margin-bottom: 100px;
 }
 
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: orange;
+}
+
 /* Game Divider */
 #gamespace {
     height: 40vh;
