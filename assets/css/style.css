@@ -24,7 +24,7 @@ header {
     min-height: 250px;
     width: 25vw;
     float: left;
-    background: blue;
+    background: #3776bb;
 }
 
 /* Computer */
@@ -33,7 +33,7 @@ header {
     min-height: 250px;
     width: 25vw;
     float: right;
-    background: red;
+    background: #cf5555;
 }
 
 /* Controls */
