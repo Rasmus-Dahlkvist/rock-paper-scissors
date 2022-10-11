@@ -5,11 +5,31 @@ body {
     text-align: center;
 }
 
-/* Game Section */
+/* Game Divider */
 #gamespace {
     height: 50vh;
     width: 50vw;
     margin: auto;
     background: green;
+}
+
+/* Player */
+#player-side {
+    height: 50vh;
+    width: 25vw;
+    float: left;
+    background: blue;
+}
+
+/* Computer */
+#computer-side {
+    height: 50vh;
+    width: 25vw;
+    float: right;
+    background: red;
+}
+
+#button-box {
+    width: 50vw;
 }
 
