@@ -15,7 +15,7 @@ body {
 
 /* Player */
 #player-side {
-    height: 50vh;
+    height: 40vh;
     width: 25vw;
     float: left;
     background: blue;
@@ -23,7 +23,7 @@ body {
 
 /* Computer */
 #computer-side {
-    height: 50vh;
+    height: 40vh;
     width: 25vw;
     float: right;
     background: red;
