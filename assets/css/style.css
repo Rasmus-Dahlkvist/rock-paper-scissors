@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+/* Header */
+header {
+    margin-bottom: 100px;
+}
+
 /* Game Divider */
 #gamespace {
     height: 50vh;
