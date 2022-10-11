@@ -32,5 +32,12 @@ body {
 /* Controls */
 #button-box {
     width: 50vw;
+    background: #2a2a2a;
 }
 
+button {
+    border: none;
+    font-size: 2em;
+    color: white;
+    background: none;
+}
