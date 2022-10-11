@@ -1,8 +1,25 @@
 /* General */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+
 body {
     background: url(/assets/images/wood.jpg);
-    color: white;
+    font-size: 1.5em;
+    font-family: 'Rubik Distressed', cursive;
     text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
 }
 
 /* Header */
@@ -12,9 +29,9 @@ header {
 
 /* Game Divider */
 #gamespace {
-    height: 50vh;
+    height: 40vh;
     width: 50vw;
-    margin: auto;
+    margin: 40px auto 0 ;
 }
 
 /* Player */
@@ -23,7 +40,7 @@ header {
     min-height: 250px;
     width: 25vw;
     float: left;
-    background: #3776bb;
+    background: rgba(55, 118, 187, 0.8);
 }
 
 /* Computer */
@@ -32,13 +49,14 @@ header {
     min-height: 250px;
     width: 25vw;
     float: right;
-    background: #cf5555;
+    background: rgba(207, 85, 85, 0.8);
 }
 
 /* Controls */
 #button-box {
     width: 50vw;
-    background: #2a2a2a;
+    background: rgba(42, 42, 42, 0.8);
+    margin: auto;
 }
 
 button {
@@ -51,7 +69,7 @@ button {
 }
 
 button :hover {
-    color: yellow;
+    color: orange;
 }
 
 /* Footer + Social Media */
@@ -62,9 +80,9 @@ footer {
 
 footer a {
     margin: 20px;
-    color: orangered;
+    color: #ab5ca1;
 }
 
 footer a:hover {
-    color: orange;
+    color: #7b6ab7;
 }
