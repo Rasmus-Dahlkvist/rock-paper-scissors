@@ -21,6 +21,7 @@ header {
 /* Player */
 #player-side {
     height: 40vh;
+    min-height: 250px;
     width: 25vw;
     float: left;
     background: blue;
@@ -29,6 +30,7 @@ header {
 /* Computer */
 #computer-side {
     height: 40vh;
+    min-height: 250px;
     width: 25vw;
     float: right;
     background: red;
