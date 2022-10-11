@@ -47,3 +47,14 @@ button {
 button :hover {
     color: yellow;
 }
+
+/* Footer + Social Media */
+footer {
+    font-size: 2em;
+    margin-top: 200px;
+}
+
+footer a {
+    margin: 20px;
+    color: orangered;
+}
