@@ -1,11 +1,11 @@
-document.getElementById("rock-btn").onClick = function() {
+document.getElementById("rock-btn").onclick = function() {
     console.log("Rock");
 }
 
-document.getElementById("paper-btn").onClick = function() {
+document.getElementById("paper-btn").onclick = function() {
     console.log("Paper");
 }
 
-document.getElementById("scissors-btn").onClick = function() {
+document.getElementById("scissors-btn").onclick = function() {
     console.log("Scissors");
 }
