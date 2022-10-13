@@ -78,6 +78,9 @@ header a:hover {
     background: rgba(207, 85, 85, 0.8);
 }
 
+.computer-icons {
+    display: none;
+}
 
 /* Controls */
 #button-box {
