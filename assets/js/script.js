@@ -10,6 +10,8 @@ const scissors = 2;
 
 
 document.getElementById("rock-btn").onclick = function() {
+
+    player = rock;
     playerIcons[rock].style.display = "block";
     playerIcons[paper].style.display = "none";
     playerIcons[scissors].style.display = "none";
@@ -18,6 +20,8 @@ document.getElementById("rock-btn").onclick = function() {
 };
 
 document.getElementById("paper-btn").onclick = function() {
+
+    player = paper;
     playerIcons[rock].style.display = "none";
     playerIcons[paper].style.display = "block";
     playerIcons[scissors].style.display = "none";
@@ -26,6 +30,8 @@ document.getElementById("paper-btn").onclick = function() {
 };
 
 document.getElementById("scissors-btn").onclick = function() {
+
+    player = scissors;
     playerIcons[rock].style.display = "none";
     playerIcons[paper].style.display = "none";
     playerIcons[scissors].style.display = "block";
@@ -52,6 +58,7 @@ function computerChoice (){
 };
 
 function scores (){
+
     let playerOutcome = "who wins?";
     let computerOutcome = "who wins?";
 
