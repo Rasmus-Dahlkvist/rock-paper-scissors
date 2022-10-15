@@ -85,6 +85,16 @@ function scores (){
         computerOutcome = "Lose!";
     }
 
+    if (playerScore == 5){
+
+        console.log("Player Won!")
+
+    } else if (computerScore == 5){
+
+        console.log("Computer Won!")
+
+    }
+
     document.getElementById("player-score").innerHTML = "Score:" + playerScore;
     document.getElementById("player-outcome").innerHTML = playerOutcome;
     document.getElementById("computer-score").innerHTML = "Score:" + computerScore;
