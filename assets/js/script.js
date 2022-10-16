@@ -41,6 +41,7 @@ document.getElementById("scissors-btn").onclick = function() {
 };
 
 function computerChoice (){
+
     computer = Math.floor(Math.random() * 3);
 
     if (computer == rock){
@@ -60,8 +61,8 @@ function computerChoice (){
 
 function scores (){
 
-    let playerOutcome = "who wins?";
-    let computerOutcome = "who wins?";
+    let playerOutcome = "";
+    let computerOutcome = "";
 
     if (computer == player){
         computerOutcome = "Tie!";
@@ -86,18 +87,6 @@ function scores (){
         computerOutcome = "Lose!";
     }
 
-   /* if (playerScore == 5){
-
-        winOrLose = "you won! ";
-        reset();
-
-    } else if (computerScore == 5){
-
-        winOrLose = "you lost! ";
-        reset();
-
-    }*/
-
     document.getElementById("player-score").innerHTML = "Score:" + playerScore;
     document.getElementById("player-outcome").innerHTML = playerOutcome;
     document.getElementById("computer-score").innerHTML = "Score:" + computerScore;
@@ -112,11 +101,8 @@ function scores (){
 
         winOrLose = "You Lost! \n";
         reset();
-
     }
 }
-
-
 
 function reset (){
 
