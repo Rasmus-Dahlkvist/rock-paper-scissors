@@ -1,16 +1,16 @@
 /* General */
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     background: url(/assets/images/wood.jpg);
     font-size: 1.5em;
-    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: whitesmoke;
 }
 
 h2, h3 {
-    font-family: 'Rubik', cursive;
+    font-family: 'Poppins', sans-serif;
     color: #1a1a1a;
 }
 
