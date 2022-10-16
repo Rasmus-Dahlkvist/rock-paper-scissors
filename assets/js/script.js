@@ -4,6 +4,7 @@ let computer;
 let player;
 let playerScore = 0;
 let computerScore = 0;
+let winOrLose;
 const rock = 0;
 const paper = 1;
 const scissors = 2;
@@ -85,18 +86,54 @@ function scores (){
         computerOutcome = "Lose!";
     }
 
-    if (playerScore == 5){
+   /* if (playerScore == 5){
 
-        console.log("Player Won!")
+        winOrLose = "you won! ";
+        reset();
 
     } else if (computerScore == 5){
 
-        console.log("Computer Won!")
+        winOrLose = "you lost! ";
+        reset();
 
-    }
+    }*/
 
     document.getElementById("player-score").innerHTML = "Score:" + playerScore;
     document.getElementById("player-outcome").innerHTML = playerOutcome;
     document.getElementById("computer-score").innerHTML = "Score:" + computerScore;
     document.getElementById("computer-outcome").innerHTML = computerOutcome;
+
+    if (playerScore == 5){
+
+        winOrLose = "You Won! \n";
+        reset();
+
+    } else if (computerScore == 5){
+
+        winOrLose = "You Lost! \n";
+        reset();
+
+    }
+}
+
+
+
+function reset (){
+
+    if (confirm(winOrLose + "Press Ok to play again !")){
+        playerScore = 0;
+        computerScore = 0;
+        playerOutcome = "";
+        computerOutcome = "";
+        playerIcons[rock].style.display = "none";
+        playerIcons[paper].style.display = "none";
+        playerIcons[scissors].style.display = "none";
+        computerIcons[rock].style.display = "none";
+        computerIcons[paper].style.display = "none";
+        computerIcons[scissors].style.display = "none";
+        document.getElementById("player-score").innerHTML = "Score:" + playerScore;
+        document.getElementById("player-outcome").innerHTML = playerOutcome;
+        document.getElementById("computer-score").innerHTML = "Score:" + computerScore;
+        document.getElementById("computer-outcome").innerHTML = computerOutcome;
+    }
 }

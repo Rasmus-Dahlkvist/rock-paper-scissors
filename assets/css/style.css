@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: orange;
+    color: yellow;
 }
 
 
@@ -39,7 +39,7 @@ header a {
 }
 
 header a:hover {
-    color: orange;
+    color: yellow;
 }
 
 
@@ -50,7 +50,7 @@ header a:hover {
     margin: 40px auto 0 ;
 }
 
-#icon {
+.player-icons ,.computer-icons {
     font-size: 2em;
     color: yellow;
 }
@@ -84,6 +84,7 @@ header a:hover {
 
 /* Controls */
 #button-box {
+    font-size: 2.2em;
     width: 50vw;
     background: rgba(42, 42, 42, 0.8);
     margin: 0 auto 40px;
@@ -93,13 +94,13 @@ button {
     border: none;
     margin: 20px;
     padding: 10px;
-    font-size: 2.2em;
+    font-size: 1.2em;
     background: none;
-    color: white;
+    color: whitesmoke;
 }
 
 button :hover {
-    color: orange;
+    color: yellow;
 }
 
 
@@ -111,9 +112,9 @@ footer {
 
 footer a {
     margin: 20px;
-    color: orange;
+    color: whitesmoke;
 }
 
 footer a:hover {
-    color: whitesmoke;
+    color: yellow;
 }
