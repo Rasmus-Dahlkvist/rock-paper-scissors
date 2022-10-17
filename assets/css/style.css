@@ -47,7 +47,7 @@ header a {
 
 .player-icons ,.computer-icons {
     font-size: 2em;
-    /*color: #ffde34;*/
+    color: #ffde34;
     display: none;
 }
 
