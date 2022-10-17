@@ -42,7 +42,7 @@ header a:hover {
 }
 
 
-/* Game Divider */
+/* Gamespace */
 #gamespace {
     height: 40vh;
     width: 50vw;
@@ -119,13 +119,14 @@ footer a:hover {
 }
 
 /* Responsiveness */
-/* Ipad size */
+/* Tablet size */
 @media only screen and (max-width: 1000px){
 
     body {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
+    /* Tablet Gamespace */
     #gamespace {
         height: 30vh;
         width: 100%;
@@ -136,9 +137,22 @@ footer a:hover {
         width: 50%;
     }
 
+    /* Tablet Controls */
+    #button-box {
+        
+    }
+    
+    /* Tablet Footer */
 }
 
 /* Mobile size */
 @media only screen and (max-width: 600px){
 
+    /* Mobile Gamespace*/
+
+    /* Mobile Controls*/
+
+    /* Mobile Footer*/
+
 }
+
