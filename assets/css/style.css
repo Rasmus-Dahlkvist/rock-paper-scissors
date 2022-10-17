@@ -18,7 +18,7 @@ a {
     color: #F0EAD6;
 }
 
-a:hover, button :hover {
+a:hover, button:hover {
     color: #ffde34;
 }
 
@@ -29,12 +29,12 @@ header {
 
 header h1 {
     font-size: 4em;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 header a {
     text-decoration: none;
-    color: #F0EAD6;
+    /*color: #F0EAD6;*/
 }
 
 /* Gamespace */
@@ -51,11 +51,11 @@ header a {
 }
 
 /* Player */
-#player-side {
+#player-side {  /*
     height: 40vh;
     min-height: 350px;
-    width: 25vw;
-    float: left;
+    width: 25vw;  */
+    float: left;  
     background: rgba(55, 118, 187, 0.8);
 }
 
@@ -65,16 +65,23 @@ header a {
 
 
 /* Computer */
-#computer-side {
+#computer-side {  /*
     height: 40vh;
     min-height: 350px;
-    width: 25vw;
-    float: right;
+    width: 25vw;   */
+    float: right;  
     background: rgba(207, 85, 85, 0.8);
 }
 
 .computer-icons {
     display: none;
+}
+
+/* Opponents */
+.opponents {
+    height: 40vh;
+    min-height: 350px;
+    width: 25vw
 }
 
 /* Controls */
@@ -122,7 +129,11 @@ footer a {
         width: 80%;
     }
 
-    #player-side, #computer-side {
+    /* #player-side, #computer-side {
+        width: 50%;
+    } */
+
+    .opponents {
         width: 50%;
     }
 
@@ -152,7 +163,13 @@ footer a {
         width: 90%;
     }
 
-    #player-side, #computer-side {
+    /* #player-side, #computer-side {
+        font-size: 1.5em;
+        height: 40vh;
+        width: 50%;
+    } */
+
+    .opponents {
         font-size: 1.5em;
         height: 40vh;
         width: 50%;
@@ -198,7 +215,13 @@ footer a {
         width: 100%;
     }
 
-    #player-side, #computer-side {
+   /* #player-side, #computer-side {
+        min-height: 250px;
+        font-size: 1em;
+        width: 50%;
+    } */
+
+    .opponents {
         min-height: 250px;
         font-size: 1em;
         width: 50%;
