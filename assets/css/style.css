@@ -136,7 +136,7 @@ footer a:hover {
 /* Tablet size */
 @media only screen and (max-width: 1000px){
 
-    /* General */
+    /* Tablet General */
 
     body {
         font-size: 1em;
@@ -179,11 +179,40 @@ footer a:hover {
 /* Mobile size */
 @media only screen and (max-width: 600px){
 
+    /* Mobile General */
+    /*body {
+        font-size: 0.6em;
+    }*/
+
+    /* Mobile Header */
+    header {
+        margin: 0px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
     /* Mobile Gamespace*/
+    #gamespace {
+        min-height: 250px;
+        width: 100%;
+    }
+
+    #player-side, #computer-side {
+        min-height: 250px;
+        font-size: 1em;
+        width: 50%;
+    }
 
     /* Mobile Controls*/
+    #button-box {
+        width: 100%;
+    }
 
-    /* Mobile Footer*/
-
+    /* Rules Link */
+    #wrpsa-link {
+        font-size: 1.2em;
+    }
 }
 
