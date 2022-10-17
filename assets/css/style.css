@@ -6,7 +6,7 @@ body {
     font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: whitesmoke;
+    color: #F0EAD6;
 }
 
 h2, h3 {
@@ -15,7 +15,7 @@ h2, h3 {
 }
 
 a {
-    color: whitesmoke;
+    color: #F0EAD6;
 }
 
 a:hover {
@@ -34,7 +34,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #F0EAD6;
 }
 
 /* Gamespace */
@@ -91,7 +91,7 @@ button {
     padding: 10px;
     font-size: 1.2em;
     background: none;
-    color: whitesmoke;
+    color: #F0EAD6;
 }
 
 button :hover {
@@ -107,7 +107,7 @@ footer {
 
 footer a {
     margin: 20px;
-    color: whitesmoke;
+    color: #F0EAD6;
 }
 
 footer a:hover {
