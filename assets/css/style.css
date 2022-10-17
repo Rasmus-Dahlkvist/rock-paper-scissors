@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 100;
 }
 
@@ -45,6 +45,7 @@ header a:hover {
 /* Gamespace */
 #gamespace {
     height: 40vh;
+    min-height: 350px;
     width: 50vw;
     margin: 40px auto 0 ;
 }
@@ -57,7 +58,7 @@ header a:hover {
 /* Player */
 #player-side {
     height: 40vh;
-    min-height: 250px;
+    min-height: 350px;
     width: 25vw;
     float: left;
     background: rgba(55, 118, 187, 0.8);
@@ -71,7 +72,7 @@ header a:hover {
 /* Computer */
 #computer-side {
     height: 40vh;
-    min-height: 250px;
+    min-height: 350px;
     width: 25vw;
     float: right;
     background: rgba(207, 85, 85, 0.8);
@@ -134,12 +135,13 @@ footer a:hover {
 
     #player-side, #computer-side {
         height: 30vh;
+        min-height: 250px;
         width: 50%;
     }
 
     /* Tablet Controls */
     #button-box {
-        
+        width: 100%;
     }
     
     /* Tablet Footer */
