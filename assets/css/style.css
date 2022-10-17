@@ -124,18 +124,17 @@ footer a:hover {
 @media only screen and (max-width: 1000px){
 
     body {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     /* Tablet Gamespace */
     #gamespace {
-        height: 30vh;
+        height: 40vh;
         width: 100%;
     }
 
     #player-side, #computer-side {
-        height: 30vh;
-        min-height: 250px;
+        height: 40vh;
         width: 50%;
     }
 
