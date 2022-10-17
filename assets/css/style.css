@@ -122,9 +122,23 @@ footer a:hover {
 /* Ipad size */
 @media only screen and (max-width: 1000px){
 
+    body {
+        font-size: 1em;
+    }
+
+    #gamespace {
+        height: 30vh;
+        width: 100%;
+    }
+
+    #player-side, #computer-side {
+        height: 30vh;
+        width: 50%;
+    }
+
 }
 
 /* Mobile size */
 @media only screen and (max-width: 600px){
-    
+
 }
