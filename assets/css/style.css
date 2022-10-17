@@ -117,3 +117,14 @@ footer a {
 footer a:hover {
     color: yellow;
 }
+
+/* Responsiveness */
+/* Ipad size */
+@media only screen and (max-width: 1000px){
+
+}
+
+/* Mobile size */
+@media only screen and (max-width: 600px){
+    
+}
