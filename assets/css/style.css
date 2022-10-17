@@ -18,8 +18,8 @@ a {
     color: #F0EAD6;
 }
 
-a:hover {
-    color: orangered;
+a:hover, button :hover {
+    color: #ffde34;
 }
 
 /* Header */
@@ -47,7 +47,7 @@ header a {
 
 .player-icons ,.computer-icons {
     font-size: 2em;
-    color: yellow;
+    color: #ffde34;
 }
 
 /* Player */
@@ -94,10 +94,9 @@ button {
     color: #F0EAD6;
 }
 
-button :hover {
+/*button :hover {
     color: yellow;
-}
-
+}*/
 
 /* Footer + Social Media */
 footer {
@@ -105,10 +104,10 @@ footer {
     margin-top: 200px;
 }
 
-/*footer a {
+footer a {
     margin: 20px;
-    color: #F0EAD6;
-}*/
+    /*color: #F0EAD6;*/
+}
 
 /*footer a:hover {
     color: yellow;
