@@ -47,7 +47,7 @@ header a {
 
 .player-icons ,.computer-icons {
     font-size: 2em;
-    color: #ffde34;
+    /*color: #ffde34;*/
     display: none;
 }
 
@@ -78,7 +78,7 @@ header a {
     display: none;
 }
 
-/* Opponents = player-side + computer-side*/
+/* Opponents = player-side + computer-side */
 .opponents {
     height: 40vh;
     min-height: 350px;
