@@ -120,17 +120,35 @@ footer a:hover {
 }
 
 /* Responsiveness */
+/* Small Laptop size */
+@media only screen and (max-width: 1500px){
+
+    /* Small Laptop Gamespace */
+    #gamespace {
+        width: 80%;
+    }
+
+    #player-side, #computer-side {
+        width: 50%;
+    }
+
+    /* Small Laptop Controls */
+    #button-box {
+        width: 80%;
+    }
+}
+
 /* Tablet size */
 @media only screen and (max-width: 1000px){
 
     body {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     /* Tablet Gamespace */
     #gamespace {
         height: 40vh;
-        width: 100%;
+        width: 90%;
     }
 
     #player-side, #computer-side {
@@ -140,7 +158,7 @@ footer a:hover {
 
     /* Tablet Controls */
     #button-box {
-        width: 100%;
+        width: 90%;
     }
     
     /* Tablet Footer */
