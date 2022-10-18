@@ -3,6 +3,7 @@
 
 body {
     background: url(/assets/images/wood.jpg);
+    background-color: #3a3a3a;
     font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -45,7 +46,7 @@ header a {
     margin: 40px auto 0 ;
 }
 
-.player-icons ,.computer-icons {
+.player-icons, .computer-icons {
     font-size: 2em;
     color: #ffde34;
     display: none;
