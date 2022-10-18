@@ -3,7 +3,6 @@
 
 body {
     background: url(../images/wood.jpg);
-    /*background: url("https://www.freepik.com/free-photo/wooden-flooring-textured-background-design_16014620.htm");*/
     background-color: #3a3a3a;
     font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
@@ -31,12 +30,10 @@ header {
 
 header h1 {
     font-size: 4em;
-    /*font-weight: bold;*/
 }
 
 header a {
     text-decoration: none;
-    /*color: #F0EAD6;*/
 }
 
 /* Gamespace */
@@ -54,24 +51,13 @@ header a {
 }
 
 /* Player */
-#player-side {  /*
-    height: 40vh;
-    min-height: 350px;
-    width: 25vw;  */
+#player-side {
     float: left;  
     background: rgba(55, 118, 187, 0.8);
 }
 
-/*.player-icons {
-    display: none;
-}*/
-
-
 /* Computer */
-#computer-side {  /*
-    height: 40vh;
-    min-height: 350px;
-    width: 25vw;   */
+#computer-side {
     float: right;  
     background: rgba(207, 85, 85, 0.8);
 }
@@ -80,7 +66,6 @@ header a {
     display: none;
 }
 
-/* Opponents = player-side + computer-side */
 .opponents {
     height: 40vh;
     min-height: 350px;
@@ -104,10 +89,6 @@ button {
     color: #F0EAD6;
 }
 
-/*button :hover {
-    color: yellow;
-}*/
-
 /* Footer + Social Media */
 footer {
     font-size: 2em;
@@ -116,12 +97,7 @@ footer {
 
 footer a {
     margin: 20px;
-    /*color: #F0EAD6;*/
 }
-
-/*footer a:hover {
-    color: yellow;
-}*/
 
 /* Responsiveness */
 /* Small Laptop size */
@@ -131,10 +107,6 @@ footer a {
     #gamespace {
         width: 80%;
     }
-
-    /* #player-side, #computer-side {
-        width: 50%;
-    } */
 
     .opponents {
         width: 50%;
@@ -150,7 +122,6 @@ footer a {
 @media only screen and (max-width: 1000px){
 
     /* Tablet General */
-
     body {
         font-size: 1em;
     }
@@ -165,12 +136,6 @@ footer a {
         height: 40vh;
         width: 90%;
     }
-
-    /* #player-side, #computer-side {
-        font-size: 1.5em;
-        height: 40vh;
-        width: 50%;
-    } */
 
     .opponents {
         font-size: 1.5em;
@@ -199,11 +164,6 @@ footer a {
 /* Mobile size */
 @media only screen and (max-width: 600px){
 
-    /* Mobile General */
-    /*body {
-        font-size: 0.1em;
-    }*/
-
     /* Mobile Header */
     header {
         margin: 0px;
@@ -219,12 +179,6 @@ footer a {
         width: 100%;
     }
 
-   /* #player-side, #computer-side {
-        min-height: 250px;
-        font-size: 1em;
-        width: 50%;
-    } */
-
     .opponents {
         min-height: 250px;
         font-size: 1em;
@@ -233,7 +187,6 @@ footer a {
 
     /* Mobile Controls*/
     #button-box {
-        /*font-size: 1.5em;*/
         width: 100%;
     }
 
@@ -247,7 +200,4 @@ footer a {
     #wiki-link {
         font-size: 1.2em;
     }
-
-    /*RANDOM COMMENT BECAUSE GITPOD DOES NOT SEEM TO WORK*/
 }
-
