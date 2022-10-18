@@ -15,7 +15,7 @@ const paper = 1;
 const scissors = 2;
 
 // When player choose rock: Reveal players rock icon + Get computers choice and compare values
-document.getElementById("rock-btn").onclick = function() {
+document.getElementById("rock-button").onclick = function() {
 
     player = rock;
     playerIcons[rock].style.display = "block";
@@ -26,7 +26,7 @@ document.getElementById("rock-btn").onclick = function() {
 };
 
 // When player choose paper: Reveal players paper icon + Get computers choice and compare values
-document.getElementById("paper-btn").onclick = function() {
+document.getElementById("paper-button").onclick = function() {
 
     player = paper;
     playerIcons[rock].style.display = "none";
@@ -37,7 +37,7 @@ document.getElementById("paper-btn").onclick = function() {
 };
 
 // When player choose scissors: Reveal players scissors icon + Get computers choice and compare values
-document.getElementById("scissors-btn").onclick = function() {
+document.getElementById("scissors-button").onclick = function() {
 
     player = scissors;
     playerIcons[rock].style.display = "none";
@@ -65,7 +65,7 @@ function computerChoice (){
         computerIcons[paper].style.display = "none";
         computerIcons[scissors].style.display = "block";
     }
-};
+}
 
 /* 
 Compare player and computer values
@@ -78,7 +78,7 @@ function scores (){
 
     if (computer == player){
         computerOutcome = "Tie!";
-        playerOutcome = "Tie!"
+        playerOutcome = "Tie!";
 
     } else if (
         computer == rock && player == scissors ||
