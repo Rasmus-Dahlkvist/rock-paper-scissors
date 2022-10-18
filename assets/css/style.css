@@ -180,6 +180,7 @@ footer a {
 
     /* Tablet Controls */
     #button-box {
+        font-size: 3em;
         width: 90%;
     }
 
@@ -200,7 +201,7 @@ footer a {
 
     /* Mobile General */
     /*body {
-        font-size: 0.6em;
+        font-size: 0.1em;
     }*/
 
     /* Mobile Header */
@@ -232,8 +233,13 @@ footer a {
 
     /* Mobile Controls*/
     #button-box {
+        font-size: 1.2em;
         width: 100%;
     }
+
+   /* button i {
+        font-size: 0.5em;
+    }*/
 
     /* Rules Link */
     #wiki-link {
