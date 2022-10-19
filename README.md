@@ -54,10 +54,45 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ![Gameplay area started](readme-images/gameplay-area-two.png)
 
-#### The link and footer
-- Just beneath the gameplay area we have a [Rules And History](https://en.wikipedia.org/wiki/Rock_paper_scissors) link that open up wikipedia in a new tab.
-- As well as a simple footer with social media links: 
-[My GitHub](https://github.com/Rasmus-Dahlkvist),
-[My LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/)
+#### Rules Link and footer
+- Just beneath the gameplay area we have a 
+[Rules And History](https://en.wikipedia.org/wiki/Rock_paper_scissors) link that open up wikipedia in a new tab.
 
-![Full Site Image](readme-images/footer-image.png)
+- At the bottom of the page we have a simple footer that contains :
+    - A font icon link to [GitHub](https://github.com/Rasmus-Dahlkvist)
+    - A font icon link to [LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/)
+
+    - Links turn yellow when hovered. 
+
+![Rules Link + Footer Image](readme-images/footer-image.png)
+
+---
+
+## Testing
+
+
+
+### Bugs
+1. My wood background picture did not load when site was deployed
+2. Hand icon buttons were too big for some small mobile screens
+3. lighthouse test showed 88 accessability
+4. lighthouse test showed 91 on SEO
+5.
+6. This is not really a bug but when in testing i turned off my adblock program and realised that the 
+[Old Link](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/) was totally destroyed by inappropriate ads.
+
+
+### Fixed bugs
+1. changed from /assets/images/wood.webp to ../images/wood.webp
+2. changed font size and margin
+3. Add aria-label, type and value to fonticon hand buttons
+4. Add meta description
+5.
+6. changed to a wikipedia link instead *insert link*
+
+### Unfixed bugs
+1. want to make a function so that the winning side get a font icon thumbs up and losing side get a font icon thumbs down (not really a bug)
+2.
+3.
+
+
