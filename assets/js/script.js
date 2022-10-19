@@ -123,8 +123,8 @@ function reset (){
 
         playerScore = 0;
         computerScore = 0;
-        playerOutcome = "";
-        computerOutcome = "";
+        let playerOutcome = "";
+        let computerOutcome = "";
 
         playerIcons[rock].style.display = "none";
         playerIcons[paper].style.display = "none";
