@@ -8,8 +8,9 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ![Am I Responsive Screenshot](readme-images/am-i-responsive.png)
 
-## Features
 ---
+## Features
+
 ### This site offers:
 #### The Header
 - Turns yellow when hovered.
