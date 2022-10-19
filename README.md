@@ -21,30 +21,35 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 - The gameplay area contains three sections.
 - I used rgba colors to make gameplay area a little transparent just for good looks.
 
+![Gameplay area not started](readme-images/gameplay-area-one.png)
 
 - Player section :
     - Uses blue background.
     - Is assigned to the player.
     - Displays current player score.
-    - Displays if you win or lose this round.
+    - Displays if you won or lost this round.
     - Displays your choice with yellow hand icon.
-
 
 - Computer section :
     - Uses red background.
     - Is assigned to the computer.
     - Displays current computer score.
-    - Displays if computer wins or loses this round.
+    - Displays if computer won or lost this round.
     - Displays computers choice with yellow hand icon.
 
 - Controls section :
     - Uses gray background.
     - Is located just beneath player and computer sections.
     - Contains three buttons styled as rock, paper and scissors hand icons.
-    - 
+    - Starts game when one of the buttons are clicked.
     - Buttons turn yellow when hovered.
 
-![Gameplay area not started](readme-images/gameplay-area-one.png)
+- Pop-ups displaying if you won or lost the game
+    - Pop-up gives you the option to Cancel to wiew your points or Ok to play again.
+
+![Pop-up for when you win](readme-images/you-won.png)
+![Pop-up for when you lose](readme-images/you-lost.png)
+    
 
 ![Gameplay area started](readme-images/gameplay-area-two.png)
 
