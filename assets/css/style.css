@@ -21,6 +21,7 @@ a {
 
 a:hover, button:hover {
     color: #ffde34;
+    cursor: pointer;
 }
 
 /* Header */
@@ -87,6 +88,11 @@ button {
     font-size: 1.2em;
     background: none;
     color: #F0EAD6;
+}
+
+/* Hints and Rules */
+#button-explain {
+    color: #ffde34;
 }
 
 /* Footer + Social Media */
