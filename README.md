@@ -2,9 +2,9 @@
 
 Rock Paper Scissors Game for you, your uncle or anyone else!
 
-Link to my[Github Repo](https://github.com/Rasmus-Dahlkvist/rock-paper-scissors)
+Link to my [Github Repo](https://github.com/Rasmus-Dahlkvist/rock-paper-scissors)
 
-Link to my[Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
+Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ![Am I Responsive Screenshot](readme-images/am-i-responsive.png)
 
