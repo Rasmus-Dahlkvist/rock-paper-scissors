@@ -10,12 +10,48 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ## Features
 ---
-### This site offers
-- A header that lights up yellow when hovered and reloads the page when clicked
-- A gameplay area containing players side, computers side and a controls section
-- A link to [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+### This site offers:
+#### The Header
+- Turns yellow when hovered.
+- Reloads page when clicked.
+
+![Header Screenshot](readme-images/header-image.png)
+
+#### Gameplay Area
+- The gameplay area contains three sections.
+- I used rgba colors to make gameplay area a little transparent just for good looks.
+
+
+- Player section :
+    - Uses blue background.
+    - Is assigned to the player.
+    - Displays current player score.
+    - Displays if you win or lose this round.
+    - Displays your choice with yellow hand icon.
+
+
+- Computer section :
+    - Uses red background.
+    - Is assigned to the computer.
+    - Displays current computer score.
+    - Displays if computer wins or loses this round.
+    - Displays computers choice with yellow hand icon.
+
+- Controls section :
+    - Uses gray background.
+    - Is located just beneath player and computer sections.
+    - Contains three buttons styled as rock, paper and scissors hand icons.
+    - 
+    - Buttons turn yellow when hovered.
+
+![Gameplay area not started](readme-images/gameplay-area-one.png)
+
+![Gameplay area started](readme-images/gameplay-area-two.png)
+
+#### The link and footer
+- Just beneath the gameplay area we have a [Rules And History](https://en.wikipedia.org/wiki/Rock_paper_scissors) link that open up wikipedia in a new tab.
 - As well as a simple footer with social media links: 
 [My GitHub](https://github.com/Rasmus-Dahlkvist),
 [My LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/)
 
-![Full Site Image](readme-images/full-site.png)
+![Full Site Image](readme-images/footer-image.png)
