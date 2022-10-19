@@ -45,13 +45,14 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
     - Starts game when one of the buttons are clicked.
     - Buttons turn yellow when hovered.
 
+    ![Gameplay area started](readme-images/gameplay-area-two.png)
+
 - Pop-ups displaying if you won or lost the game
     - Pop-up gives you the option to Cancel to wiew your points or Ok to play again.
 
 ![Pop-up for when you win](readme-images/you-won.png)
 ![Pop-up for when you lose](readme-images/you-lost.png)
     
-![Gameplay area started](readme-images/gameplay-area-two.png)
 #### Rules
 - First we have a yellow text prompting user to click the hand-buttons
 - The rules are simple and displayed in white :
