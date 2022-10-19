@@ -1,12 +1,12 @@
-# R-P-S Game!
+# Rock Paper Scissors
 
-Rock Paper Scissors Game for you, your uncle or anyone else!
+A Rock Paper Scissors Game for you, your uncle or anyone else!
 
 Link to my [Github Repo](https://github.com/Rasmus-Dahlkvist/rock-paper-scissors)
 
 Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
-![Am I Responsive Screenshot](readme-images/am-i-responsive.png)
+![Am I Responsive Screenshot](readme-images/new-am-i-responsive.png)
 
 ---
 ## Features
@@ -16,7 +16,7 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 - Turns yellow when hovered.
 - Reloads page when clicked.
 
-![Header Screenshot](readme-images/header-image.png)
+![Header Screenshot](readme-images/new-header.png)
 
 #### Gameplay Area
 - The gameplay area contains three sections.
@@ -51,20 +51,24 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 ![Pop-up for when you win](readme-images/you-won.png)
 ![Pop-up for when you lose](readme-images/you-lost.png)
     
-
 ![Gameplay area started](readme-images/gameplay-area-two.png)
+#### Rules
+- First we have a yellow text prompting user to click the hand-buttons
+- The rules are simple and displayed in white :
+    - Rock beats Scissors
+    - Paper beats Rock
+    - Scissors beats Paper
+    - First to 5 points win the game.
 
-#### Rules Link and footer
-- Just beneath the gameplay area we have a 
-[Rules And History](https://en.wikipedia.org/wiki/Rock_paper_scissors) link that open up wikipedia in a new tab.
+![Rules Section](readme-images/new-rules.png)
 
+#### Footer
 - At the bottom of the page we have a simple footer that contains :
     - A font icon link to [GitHub](https://github.com/Rasmus-Dahlkvist)
     - A font icon link to [LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/)
-
     - Links turn yellow when hovered. 
 
-![Rules Link + Footer Image](readme-images/footer-image.png)
+![Rules Link + Footer Image](readme-images/new-footer.png)
 
 ---
 
@@ -81,9 +85,6 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 3. lighthouse test showed 88 accessability
 4. lighthouse test showed 91 on SEO
 5. Got several warnings on w3c html validator ( Had the same id in several places )
-6. This is not really a bug but when in testing i turned off my adblock program and realised that the 
-[Old Link](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/) was totally destroyed by inappropriate ads.
-
 
 ### Fixed bugs
 1. changed from /assets/images/wood.webp to ../images/wood.webp
@@ -91,7 +92,7 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 3. Add aria-label, type and value to fonticon hand buttons
 4. Add meta description
 5. Remove ids and use class instead
-6. changed to a wikipedia link instead *insert link*
+
 
 ### Validator Testing
 Using W3C validators for testing html and css.
@@ -101,8 +102,12 @@ Using W3C validators for testing html and css.
 - style.css
 ![Css validator testing](readme-images/css-test.png)
 
+- script.js 
+![JSHint](readme-images/script-test.png)
+
 Using Lighthouse in devtools for testing accessibility on index.html
 ![Lighthouse test](readme-images/lighthouse-test.png)
+
 
 ## Deployment
 
