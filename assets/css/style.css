@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 header a {
@@ -109,6 +109,11 @@ footer a {
 /* Small Laptop size */
 @media only screen and (max-width: 1500px){
 
+    /* Small Laptop Header */
+    header h1 {
+        font-size: 3em;
+    }
+
     /* Small Laptop Gamespace */
     #gamespace {
         width: 80%;
@@ -135,6 +140,10 @@ footer a {
     /* Tablet Header */
     header {
     margin: 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
     }
 
     /* Tablet Gamespace */
@@ -171,7 +180,7 @@ footer a {
     }
 
     header h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     /* Mobile Gamespace*/
