@@ -12,13 +12,14 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 ## Features
 
 ### This site offers:
-#### The Header
+
+#### The Header :
 - Turns yellow when hovered.
 - Reloads page when clicked.
 
 ![Header Screenshot](readme-images/new-header.png)
 
-#### Gameplay Area
+#### Gameplay Area :
 - The gameplay area contains three sections.
 - I used rgba colors to make gameplay area a little transparent just for good looks.
 
@@ -55,7 +56,7 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 ![Pop-up for when you win](readme-images/you-won.png)
 ![Pop-up for when you lose](readme-images/you-lost.png)
     
-#### Rules
+#### Rules :
 - First we have a yellow text prompting user to click the hand-buttons
 - The rules are simple and displayed in white :
     - Rock beats Scissors
@@ -65,7 +66,7 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ![Rules Section](readme-images/new-rules.png)
 
-#### Footer
+#### Footer :
 - At the bottom of the page we have a simple footer that contains :
     - A font icon link to my [GitHub](https://github.com/Rasmus-Dahlkvist) page
     - A font icon link to my [LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/) page
@@ -74,7 +75,6 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 ![Rules Link + Footer Image](readme-images/new-footer.png)
 
 ---
-
 ## Testing
 
 - This site has been tested in devtools for big and small screens in firefox and chrome
@@ -82,22 +82,22 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 - And also on my samsung xcover 5 in chrome and duckduckgo
 
 
-### Bugs
+### Bugs :
 1. My wood background picture did not load when site was deployed
 2. Hand icon buttons were too big for some small mobile screens
 3. Lighthouse test showed 88 accessability
 4. Lighthouse test showed 91 on SEO
 5. Got several warnings on w3c html validator ( Had the same id in several places )
 
-### Bug Fixes
+### Bug Fixes :
 1. Changed from "/assets/images/wood.webp" to "../images/wood.webp" in style.css
 2. Changed font size and margin in media queries in style.css
 3. Added aria-label, type and value to fonticon hand buttons in index.html
 4. Added a simple meta description in index.html
 5. Removed the ids and used a class in index.html and style.css
 
-
-### Validator Testing
+---
+## Validator Testing
 Using W3C validators for testing html and css.
 
 - index.html passes through the W3C html validator with no errors or warnings.
@@ -110,10 +110,8 @@ I used Lighthouse in devtools for testing and troubleshooting:
 
 ![Lighthouse test](readme-images/lighthouse-test.png)
 
-
-## Deployment
-
 ---
+## Deployment
 
 This site was deployed using github pages.
 
@@ -130,12 +128,14 @@ When you are in the repository you want to deploy:
 
 This is my live link - [Rock Paper Scissors](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
+---
 ## Fork Repo
 
 When you are in the repository you want to fork:
 
 Locate the "Fork" button on the top right of the page and click it
 
+---
 ## Create Local Clone
 1. Under the repository name, click on the ‘code’ tab
 2. In the clone box, HTTPS tab, click on the clipboard icon
@@ -143,7 +143,7 @@ Locate the "Fork" button on the top right of the page and click it
 4. Changed the current working directory to the location you want the cloned directory to be made
 5. Type ‘git clone’ and then paste the URL copied from GitHub
 6. Press enter and the local clone will be created
-
+---
 ## Design
 How do i design these awesome websites you might ask.
 
@@ -189,13 +189,32 @@ Screenshots from color picking tools:
 ![Emoji Yellow](readme-images/emoji-yellow.png)
 ![Eggshell White](readme-images/eggshell-white.png)
 
-### Tecnologies used
-
-## Credits
+---
+## Technologies used :
+- For writing the website
+    - Html
+    - Css
+    - JavaScript
+    - Markdown
+    - Gitpod
+- For styling the website 
+    - ColorSpace
+    - Google Fonts
+    - Font Awesome   
+- For testing the website
+    - Devtools
+    - Lighthouse
+    - W3C HTML Validator
+    - W3C CSS Validator
+    - JSHint
+- For saving and deploying the website
+    - Git
+    - GitHub   
 
 ---
+## Credits
 
-### Content
+### Content :
 - Html and Css Code
 
     - The html and css code for this project as well as how i picked the font icons, colors and styles was based on skills and tools that i learned from my first portfolio project [Hardrock-Climbing!](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/). 
@@ -211,14 +230,14 @@ Screenshots from color picking tools:
     - Huge thanks to my friend Martin for great tips and tricks regarding Javascript code and for the help of explaining difficult concepts regarding code in general.
 
 
-### Image
+### Image :
 - The background image for this web page was taken from [freepik](https://www.freepik.com/free-photo/wooden-flooring-textured-background-design_16014620.htm)
 
-### Font and Font Icons
+### Font and Font Icons :
 - The text font used in this web site was found on [Google Fonts](https://fonts.google.com/specimen/Poppins?query=Poppins)
 - The font icons used in this web site was found on [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands)
 
-### Colors
+### Colors :
 - The colors i used in this web site was found on: 
     - [ColorSpace](https://mycolor.space/)
     - [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/)
@@ -226,10 +245,10 @@ Screenshots from color picking tools:
 - And some of them were converted from hexadecimal to rgba on:
     - [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba)
 
-### The README.md
+### The README.md :
 - Inspiration for writing this README.md file:
     - [Hardrock-Climbing!](https://github.com/Rasmus-Dahlkvist/hard-rock-climbing2)
 - The instructions for forking the repository and creating a local clone is taken from [Tasha Johnson's pawsome-portraits-v4](https://github.com/TashaTJ/pawsome-portraits-v4)
 
-### Special Thanks !
+### Special Thanks :
 - To my Code Institute mentor Harry for pointing me in the right direction when feeling lost.
