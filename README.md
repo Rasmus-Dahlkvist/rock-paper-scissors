@@ -158,7 +158,7 @@ So let me instead explain how i made this one :
 7. Google search for: hex to rgba converter and find [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba).
 8. Use [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba) to convert from hexadecimal ro rgba.
 9. Use [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands) icons for buttons.
-10. Realize that the [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands) icons remind you of emojis and decide to go for an emoji Yellow Color on the hands and  other text.
+10. Realize that the [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands) icons remind you of emojis and decide to go for an emoji Yellow Color on the hands and some text.
 11. Google search for: emoji yellow hex and find [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/) (#FFDE34).
 12. Get tired of the plain white text.
 13. Google search for: white hex and find [htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/).
