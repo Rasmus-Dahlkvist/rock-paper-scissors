@@ -162,7 +162,9 @@ So let me instead explain how i made this one :
 11. Google search for: emoji yellow hex and find [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/) (#FFDE34).
 12. Get tired of the plain white text.
 13. Google search for: white hex and find [htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/).
-12. Go for Eggshell-White (#F0EAD6)
+14. Go for Eggshell-White (#F0EAD6)
+15. Use [Google Fonts](https://fonts.google.com/specimen/Poppins?query=poppins) And find a nice looking font (Poppins).
+
 
 I feel that it is very hard to plan style beforehand.
 So this is actually how i came up with the style for this page.
