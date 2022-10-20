@@ -48,7 +48,9 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
     ![Gameplay area started](readme-images/gameplay-area-two.png)
 
 - Pop-ups displaying if you won or lost the game
-    - Pop-up gives you the option to Cancel to wiew your points or Ok to play again.
+    - Pop-up gives you two options: 
+        - Cancel to wiew your points
+        - Ok to play again.
 
 ![Pop-up for when you win](readme-images/you-won.png)
 ![Pop-up for when you lose](readme-images/you-lost.png)
@@ -170,12 +172,14 @@ I feel that it is very hard to plan style beforehand.
 So this is actually how i came up with the style for this page.
 
 Tools used for styling:
+
 [ColorSpace](https://mycolor.space/),
 [freepik](https://www.freepik.com/free-photo/wooden-flooring-textured-background-design_16014620.htm),
 [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba),
 [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands),
 [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/),
 [htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/)
+[Google Fonts](https://fonts.google.com/)
 
 Screenshots from color picking tools:
 ![Colorspace Matching Gradient](readme-images/colorspace.png)
@@ -191,18 +195,40 @@ Screenshots from color picking tools:
 ---
 
 ### Content
-- The html and css code for this project as well as the font icons, colors and styles was inspired from my first portfolio project as well as [W3Schools](https://www.w3schools.com/).
-So i will start by giving myself some credit for coming such a long way since the beginning of my first portfolio project.
-- The JavaScript for this project was largely based on [W3Schools](https://www.w3schools.com/) tutorials and the help of my friend Martin for explaining difficult concepts.
--
--
--
--
+- Html and Css Code
+
+    - The html and css code for this project as well as how i picked the font icons, colors and styles was based on skills and tools that i learned from my first portfolio project [Hardrock-Climbing!](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/). 
+
+    - So i will start by giving myself some credit for coming such a long way since the beginning of my first portfolio project.
+
+    - I used [W3Schools](https://www.w3schools.com/) For Html and Css problems i did not solve myself .
+
+- JavaScript Code
+    - The JavaScript for this project was largely based on skills i learned from [Code Institutes](https://codeinstitute.net) JavaScript Challenges. As well as [freeCodeCamp's](https://www.freecodecamp.org/learn) Challenges.
+
+    - I used [W3Schools](https://www.w3schools.com/) Tutorials for problemsolving
+    - Huge thanks to my friend Martin for great tips and tricks regarding Javascript code and for the help of explaining difficult concepts regarding code in general.
+
 
 ### Image
--
+- The background image for this web page was taken from [freepik](https://www.freepik.com/free-photo/wooden-flooring-textured-background-design_16014620.htm)
 
-### Font Icons
--
+### Font and Font Icons
+- The text font used in this web site was found on [Google Fonts](https://fonts.google.com/specimen/Poppins?query=Poppins)
+- The font icons used in this web site was found on [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands)
 
 ### Colors
+- The colors i used in this web site was found on: 
+    - [ColorSpace](https://mycolor.space/)
+    - [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/)
+    - [htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/)
+- And they were converted from hexadecimal to rgba on:
+    - [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba)
+
+### The README.md
+- Inspiration for writing this README.md file:
+    - [Hardrock-Climbing!](https://github.com/Rasmus-Dahlkvist/hard-rock-climbing2)
+- The instructions for forking the repository and creating a local clone is taken from [Tasha Johnson's pawsome-portraits-v4](https://github.com/TashaTJ/pawsome-portraits-v4)
+
+### Special Thanks !
+- To my Code Institute mentor Harry for pointing me in the right direction when feeling lost.
