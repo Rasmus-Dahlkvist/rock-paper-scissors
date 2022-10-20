@@ -222,7 +222,7 @@ Screenshots from color picking tools:
     - [ColorSpace](https://mycolor.space/)
     - [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/)
     - [htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/)
-- And they were converted from hexadecimal to rgba on:
+- And some of them were converted from hexadecimal to rgba on:
     - [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba)
 
 ### The README.md
