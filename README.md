@@ -67,8 +67,8 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 #### Footer
 - At the bottom of the page we have a simple footer that contains :
-    - A font icon link to [GitHub](https://github.com/Rasmus-Dahlkvist)
-    - A font icon link to [LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/)
+    - A font icon link to my [GitHub](https://github.com/Rasmus-Dahlkvist) page
+    - A font icon link to my [LinkedIn](https://www.linkedin.com/in/rasmus-dahlkvist-b11670247/) page
     - Links turn yellow when hovered. 
 
 ![Rules Link + Footer Image](readme-images/new-footer.png)
@@ -90,11 +90,11 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 5. Got several warnings on w3c html validator ( Had the same id in several places )
 
 ### Bug Fixes
-1. Changed from "/assets/images/wood.webp" to "../images/wood.webp"
-2. Changed font size and margin
-3. Add aria-label, type and value to fonticon hand buttons
-4. Add meta description
-5. Remove ids and use class instead
+1. Changed from "/assets/images/wood.webp" to "../images/wood.webp" in style.css
+2. Changed font size and margin in media queries in style.css
+3. Added aria-label, type and value to fonticon hand buttons in index.html
+4. Added a simple meta description in index.html
+5. Removed the ids and used a class in index.html and style.css
 
 
 ### Validator Testing
@@ -106,7 +106,7 @@ Using W3C validators for testing html and css.
 
 - script.js passes through JSHint with no errors or warnings.
 
-Using Lighthouse in devtools for testing :
+I used Lighthouse in devtools for testing and troubleshooting:
 
 ![Lighthouse test](readme-images/lighthouse-test.png)
 
