@@ -83,13 +83,13 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 ### Bugs
 1. My wood background picture did not load when site was deployed
 2. Hand icon buttons were too big for some small mobile screens
-3. lighthouse test showed 88 accessability
-4. lighthouse test showed 91 on SEO
+3. Lighthouse test showed 88 accessability
+4. Lighthouse test showed 91 on SEO
 5. Got several warnings on w3c html validator ( Had the same id in several places )
 
-### Fixed bugs
-1. changed from /assets/images/wood.webp to ../images/wood.webp
-2. changed font size and margin
+### Bug Fixes
+1. Changed from "/assets/images/wood.webp" to "../images/wood.webp"
+2. Changed font size and margin
 3. Add aria-label, type and value to fonticon hand buttons
 4. Add meta description
 5. Remove ids and use class instead
@@ -97,16 +97,15 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ### Validator Testing
 Using W3C validators for testing html and css.
-- index.html
-![Html validator test](readme-images/html-test.png)
 
-- style.css
-![Css validator testing](readme-images/css-test.png)
+- index.html passes through the W3C html validator with no errors or warnings.
 
-- script.js 
-![JSHint](readme-images/script-test.png)
+- style.css passes through the W3C css validator with no errors or warnings.
 
-Using Lighthouse in devtools for testing accessibility on index.html
+- script.js passes through JSHint with no errors or warnings.
+
+Using Lighthouse in devtools for testing :
+
 ![Lighthouse test](readme-images/lighthouse-test.png)
 
 
@@ -127,7 +126,7 @@ When you are in the repository you want to deploy:
 8. Refresh page
 9. Now you should have a link
 
-This is my live link - [R-P-S Game!](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
+This is my live link - [Rock Paper Scissors](https://rasmus-dahlkvist.github.io/rock-paper-scissors/)
 
 ## Fork Repo
 
@@ -142,6 +141,48 @@ Locate the "Fork" button on the top right of the page and click it
 4. Changed the current working directory to the location you want the cloned directory to be made
 5. Type ‘git clone’ and then paste the URL copied from GitHub
 6. Press enter and the local clone will be created
+
+## Design
+How do i design these awesome websites you might ask.
+
+Actually i ask myself exactly that all the time but have not yet found an answer...
+
+So let me instead explain how i made this one :
+
+1. Set background color to a nice Dark Gray because white sucks (#3a3a3a).
+2. Find a pleasant Red Color for computers side on [ColorSpace](https://mycolor.space/) (#CF5555).
+3. Find a pleasant Blue Color for players side that matches the red using [ColorSpace](https://mycolor.space/?hex=%23CF5555&sub=1) (#3776BB).
+4. Have a hard time deciding a third color and end up using a Dark Gray (#2a2a2a).
+5. Google search for: large Wood background and find [freepik](https://www.freepik.com/free-photo/wooden-flooring-textured-background-design_16014620.htm).
+6. Realize that it would be nice to see the wood grain through the colors.
+7. Google search for: hex to rgba converter and find [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba).
+8. Use [rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba) to convert from hexadecimal ro rgba.
+9. Use [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands) icons for buttons.
+10. Realize that the [FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands) icons remind you of emojis and decide to go for an emoji Yellow Color on the hands and  other text.
+11. Google search for: emoji yellow hex and find [crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/) (#FFDE34).
+12. Get tired of the plain white text.
+13. Google search for: white hex and find [htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/).
+12. Go for Eggshell-White (#F0EAD6)
+
+I feel that it is very hard to plan style beforehand.
+So this is actually how i came up with the style for this page.
+
+Tools used for styling:
+[ColorSpace](https://mycolor.space/),
+[freepik](https://www.freepik.com/free-photo/wooden-flooring-textured-background-design_16014620.htm),
+[rgbacolorpicker](https://rgbacolorpicker.com/hex-to-rgba),
+[FontAwesome](https://fontawesome.com/search?o=r&m=free&c=hands),
+[crispedge](https://www.crispedge.com/faq/what-is-the-color-code-for-emoji-yellow/),
+[htmlcolorcodes](https://htmlcolorcodes.com/colors/shades-of-white/)
+
+Screenshots from color picking tools:
+![Colorspace Matching Gradient](readme-images/colorspace.png)
+![Converted Red](readme-images/red-color.png)
+![Converted Blue](readme-images/blue-color.png)
+![Converted Gray](readme-images/gray-color.png)
+![Emoji Yellow](readme-images/emoji-yellow.png)
+![Eggshell White](readme-images/eggshell-white.png)
+
 
 ## Credits
 
