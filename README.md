@@ -189,6 +189,7 @@ Screenshots from color picking tools:
 ![Emoji Yellow](readme-images/emoji-yellow.png)
 ![Eggshell White](readme-images/eggshell-white.png)
 
+### Tecnologies used
 
 ## Credits
 
